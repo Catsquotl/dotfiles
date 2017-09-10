@@ -15,7 +15,7 @@ set nu
 set wrap
 syntax on
 filetype plugin indent on
-" execute pathogen#infect()
+execute pathogen#infect()
 
 "https://github.com/rdlugosz/dotfiles/blob/master/vimrc
 "------------------------------------------------------

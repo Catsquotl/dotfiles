@@ -45,9 +45,9 @@ plugins=(git tmux ruby)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/home/catsquotl/.gem/ruby/2.0.0/bin:/opt/rubies/ruby-2.0.0-p247/lib/ruby/gems/2.0.0/bin:/opt/rubies/ruby-2.0.0-p247/bin:/home/catsquotl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/catsquotl/bin
+export PATH=$PATH:/home/catsquotl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/catsquotl/bin
 
 # chruby options
- source /usr/local/share/chruby/chruby.sh
- chruby 2
+# source /usr/local/share/chruby/chruby.sh
+# chruby 2
 

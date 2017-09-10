@@ -117,8 +117,8 @@ fi
 setxkbmap -option ctrl:nocaps 
 
 # chruby options
-source /usr/local/share/chruby/chruby.sh
-chruby 2
+#source /usr/local/share/chruby/chruby.sh
+#chruby 2
 
 # tmux and 265 colorsetting
 [ -z "$TMUX" ] && export TERM=xterm-256color
