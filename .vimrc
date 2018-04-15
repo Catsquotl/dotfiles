@@ -10,7 +10,7 @@ set wrap                     "wrap long lines
 syntax on                "syntax highlighting
 filetype plugin indent on    "filetype plugins
 set background=dark         "set backgroundcolor
-colorscheme solarized
+colorscheme elflord
 let mapleader = ","          "Set mapleader key to ,
 
 "edit and load vimrc shortcuts

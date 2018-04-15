@@ -45,6 +45,4 @@ plugins=(git tmux ruby python)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/home/catsquotl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/catsquotl/bin:/home/catsquotl/.pyenv/bin
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+export PATH=$PATH:/home/catsquotl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/catsquotl/bin
