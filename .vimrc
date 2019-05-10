@@ -2,7 +2,7 @@
 " This must be first, because it changes other options as side effect
 set nocompatible
 "pathogen
-execute pathogen#infect()
+"execute pathogen#infect()
 
 " my personal preferences
 set nu                       "set linenumbers
@@ -10,7 +10,7 @@ set wrap                     "wrap long lines
 syntax on                "syntax highlighting
 filetype plugin indent on    "filetype plugins
 set background=dark         "set backgroundcolor
-colorscheme elflord
+colorscheme evening
 let mapleader = ","          "Set mapleader key to ,
 
 "edit and load vimrc shortcuts
