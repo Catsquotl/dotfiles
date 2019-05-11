@@ -7,6 +7,7 @@ set nocompatible
 " my personal preferences
 set nu                       "set linenumbers
 set wrap                     "wrap long lines
+set number relativenumber
 syntax on                "syntax highlighting
 filetype plugin indent on    "filetype plugins
 set background=dark         "set backgroundcolor
@@ -16,7 +17,7 @@ let mapleader = ","          "Set mapleader key to ,
 "edit and load vimrc shortcuts
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
-
+nnoremap <leader>rn :!python3 %<cr>
 "autocommands au
 au BufRead,BufNewFile *.bbcode set filetype=bbcode "autocommand bbcode files
 
